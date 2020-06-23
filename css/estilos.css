@@ -2,16 +2,23 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
+    text-align: center;
+    font-size: 16px;
     margin: 0;
     padding: 0;
+    background: #1e1f24;
 }
 #cabecera{
-    background: #33A;
+    background: #37488b;
     box-shadow: 0px, 2px, 20px, 0px rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.5em 0 0.5em 2em;
+}
+#cabecera #logo{
+    width: 100px;
+    vertical-align: middle;
 }
 #cabecera #tagline{
     padding: 0 0 0 1rem;
@@ -27,6 +34,7 @@ body{
 }
 #post{
     padding: 1rem;
+    background: white;
 }
 #container h1 {
     font-size: 30px;
